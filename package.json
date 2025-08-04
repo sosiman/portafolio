@@ -1,0 +1,60 @@
+{
+  "name": "portafolio-alberto-trujillo",
+  "version": "1.0.0",
+  "description": "Portafolio profesional de José Alberto Trujillo Plaza - Técnico Informático y Docente especializado en IA y Automatización",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080 --entry-file=index.html",
+    "dev": "live-server --port=3000 --entry-file=index.html --watch=.",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests specified'",
+    "deploy": "gh-pages -d .",
+    "validate": "html-validate index.html && stylelint styles.css && eslint script.js"
+  },
+  "keywords": [
+    "portafolio",
+    "portfolio",
+    "web-developer",
+    "tecnico-informatico",
+    "inteligencia-artificial",
+    "azure-ai",
+    "automatizacion",
+    "n8n",
+    "make",
+    "docente",
+    "valencia",
+    "spain"
+  ],
+  "author": {
+    "name": "José Alberto Trujillo Plaza",
+    "email": "albertotplaza@gmail.com",
+    "url": "https://github.com/albertotplaza"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albertotplaza/portafolio-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/albertotplaza/portafolio-web/issues",
+    "email": "albertotplaza@gmail.com"
+  },
+  "homepage": "https://albertotplaza.github.io/portafolio-web",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "gh-pages": "^4.0.0",
+    "html-validate": "^7.13.2",
+    "stylelint": "^15.10.3",
+    "eslint": "^8.45.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
